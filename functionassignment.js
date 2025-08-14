@@ -1,3 +1,47 @@
+
+
+// --------------handson1.js-----------------
+console.log("--------------handson1.js-------");
+
+const student={
+    name:"jonny",
+    marks:80 }
+    console.log(student.name+" "+student.marks);
+    if(student.marks>50){
+        
+        console.log("pass")}
+    else{
+        console.log("fail")
+    }
+
+// --------------handsson2.js-----------------
+console.log("--------------handson2.js-------");
+for (let i=1;i<=100;i++){
+    if(i%2==0){
+        console.log(i);
+    }
+}
+
+// --------------handson3.js-----------------
+console.log("");
+const studentdetails={
+    name:"jonny",
+    age:25,
+    grade:"A",
+    city:"New York"};
+    
+const favoriteSubjects=["Math","Science","History","telugu","english"];
+
+console.log("Student Details:");
+for (let key in studentdetails){
+    console.log(`${key}:${studentdetails[key]}`);
+}
+for (let subject of favoriteSubjects){
+    console.log(`Favorite Subject:${subject}`);
+}
+
+
+// ------------------functions------------------
 // Greeting Function
 console.log("--------------Greeting Function-------");
 function greet(name){
